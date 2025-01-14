@@ -20,5 +20,5 @@ go get github.com/sgnsyn/left-pad
 ```
 # Notes
 
-If you supply more than one character for padding, we’ll quietly focus on the first one. Go is chill like that.
-Fancy characters outside the Basic Multilingual Plane (BMP) are treated as two. Because padding isn’t just for ASCII anymore.
+- If you supply more than one character for padding, we’ll quietly focus on the first one. Go is chill like that.
+- Fancy characters outside the Basic Multilingual Plane (BMP) are treated as two. Because padding isn’t just for ASCII anymore.

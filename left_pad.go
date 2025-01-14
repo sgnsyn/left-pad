@@ -8,7 +8,7 @@ func Pad(s string, length int, chars ...rune ) string {
         return s // return original string if no padding is required
     }
 
-    charToPad := '0' //initialize char to pad to 0
+    charToPad := ' ' //initialize char to pad to ' '
     if len(chars)  > 0{
         charToPad = chars[0] //use the first char value if third argument "char ...rune" is provided
     }

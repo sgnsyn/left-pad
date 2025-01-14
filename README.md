@@ -13,10 +13,11 @@ go get github.com/sgnsyn/left-pad
 ## Usage
 
 ```go
-  leftPad.Pad("foo", 5)         // Output: "  foo"
-  leftPad.Pad("foobar", 6)      // Output: "foobar"  
-  leftPad.Pad(1, 2, '0')        // Output: "01"  
-  leftPad.Pad(17, 5, '0')       // Output: "00017"  
+  leftPad.Pad("foo", 5)             // Output: "  foo"
+  leftPad.Pad("foobar", 6)          // Output: "foobar"  
+  leftPad.Pad(1, 2, '0')            // Output: "01"  
+  leftPad.Pad(17, 5, '0')           // Output: "00017"
+  leftPad.Pad("hi", 5, '😊','a')    // Output: "😊😊😊hi"
 ```
 # Notes
 

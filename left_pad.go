@@ -3,7 +3,7 @@ package leftPad
 import "strings"
 
 func Pad(s string, length int, chars ...rune ) string {
-    padAmount := len(s) - length //getting the required padding amount 
+    padAmount := length - len(s)  //getting the required padding amount 
     if length <= 0 || padAmount <= 0{ 
         return s // return original string if no padding is required
     }

@@ -1,4 +1,4 @@
-package leftPad
+package leftpad
 
 import "strings"
 
